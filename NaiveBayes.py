@@ -61,3 +61,24 @@ Decision =max(prob_alternatives.iteritems(), key=operator.itemgetter(1))[0]
 MapOfDecision=max(prob_alternatives.iteritems(), key=operator.itemgetter(1))[1]
 
                 
+
+#DATASET FOR THIS EXERCISE, adpated from Guide to DataMining
+
+"""
+Main Interest,Current Exercise Level,How Motivated,Comfortable with tech.Devices,Model
+both,sedentary,moderate,yes,i100
+both,sedentary,moderate,no,i100
+health,sedentary,moderate,yes,i500
+appearance,active,moderate,yes,i500
+appearance,moderate,aggressive,yes,i500
+appearance,moderate,aggressive,no,i100
+health,moderate,aggressive,no,i500
+both,active,moderate,yes,i100
+both,moderate,aggressive,yes,i500
+appearance,active,aggressive,yes,i500
+both,active,aggressive,no,i500
+health,active,moderate,no,i500
+health,sedentary,aggressive,yes,i500
+appearance,active,moderate,no,i100
+health,sedentary,moderate,no,i100
+"""
